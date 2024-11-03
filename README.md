@@ -1,4 +1,4 @@
-# Tinkers' Integrations and Tweaks [![Project](http://cf.way2muchnoise.eu/full_602680_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/tcintegrations) [![Project](https://modrinth.roughness.technology/full_tcintegrations_downloads.svg)](https://modrinth.com/mod/tcintegrations)
+## Tinkers' Integrations and Tweaks [![Project](http://cf.way2muchnoise.eu/full_602680_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/tcintegrations) [![Project](https://modrinth.roughness.technology/full_tcintegrations_downloads.svg)](https://modrinth.com/mod/tcintegrations)
 [![](https://modrinth.roughness.technology/versions/tcintegrations.svg)](https://modrinth.com/mod/tcintegrations/versions)
 [![](https://img.shields.io/badge/Forge-39.0+-green.svg?longCache=true&style=flat)](https://legacy.curseforge.com/minecraft/mc-mods/tcintegrations/files)
 ![MIT](https://img.shields.io/badge/license-MIT-blue.svg?longCache=true&style=flat)
@@ -6,6 +6,81 @@
 A Minecraft 1.18+ mod designed to provide modpack integrations with other mods for
 [Tinkers' Construct](https://github.com/SlimeKnights/TinkersConstruct), as well as some other tweaks.
 
+The main goal here is to not just add a bunch of random new materials from mods and call it "integration". The goal is to add materials where it makes sense, and capture the capabilities of other mods tools and armors in Tinkers' Construct. This started with Botania and wanting to have the ability to use mana generating inventory items to automatically repair tools. This entire concept has worked out well, and the idea moving forward is balanced integration.
+
+Almost everything in the mod is datapack driven and can be overridden via datapack. Some of the mod integration abilities are hard coded to match the mod capability for the integration, which is intentional.
+
+**Will take requests for other tweaks and integrations!**
+
+## Mod Integrations
+### 🔵 Botania
+ * Adds Manasteel to smeltery
+ * Manasteel parts add "Mana" modifier
+   * "**Mana**" modifer allows tools to repair with any mana generating inventory item (60 mana cost)
+ * Adds Livingwood as tool part material
+   * "**Livingwood**" modifier reduces material repair costs by 75%
+ * Adds Livingstone as tool part material
+   * Better stats than rock
+ * Adds "**Terra**" upgrade modifier for primary weapons
+   * Repairs weapon if any mana generating inventory item is present (100 mana cost)
+   * When swung and the attack recharge meter is full, it will use 100 Mana and create a damaging Mana burst that deals 7 points (3.5 hearts) of damage to the hit mob
+ * Adds "**Elemental**" upgrade modifier for primary weapons
+   * Repairs weapon if any mana generating inventory item is present (70 mana cost)
+   * 5% chance to spawn a Pixie on hit
+   * Beheading chance if a Zombie, Skeleton, Wither Skeleton, Creeper, the Guardian of Gaia, should be implemented with similar chance to the Elementium Axe
+ * Adds "**Terrestrial**" upgrade modifier for armor as a complete "set" bonus
+   * Passive generation of 1 Mana every 10 ticks on Mana Tablets
+   * 20% decrease of Mana cost on all Mana-using TCon items (Can't translate to Botania items)
+   * Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full
+ * Adds "**Great Fairy**" upgrade modifier for armor as a complete "set" bonus
+   * 10% decrease of the Mana cost on all Mana-using TCon items (Can't translate to Botania items)
+   * If the player is attacked while wearing this armor piece, there's an % chance (depends on armor piece, same as Botania) to spawn a Pixie after being attacked.
+   * Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness.
+### 🟠 MythicBotany
+ * Adds "**Alf**" upgrade modifier for primary weapons
+   * Requires "**Terra**" upgrade modifier to upgrade
+   * Adds additional repair if any mana generating inventory item is present (100 mana cost)
+   * Acts as an item magnet when using interact (normal interact when holding shift)
+ * Adds "**Alfheim**" upgrade modifier for armor
+   * Requires "**Terrestrial**" modifier to upgrade
+   * Set bonus increases armor repair rate
+   * Helmet increases reach distance
+   * Chestplate adds knockback resistance
+   * Leggings increase run/swim speed
+   * Boots increase jump height when sprinting
+### 🟡 Create
+ * Adds tool material for Brass
+   * Material has similar stats to Bronze
+   * Adds "**Moderate**" modifier that makes the tool mine faster in moderate temperatures
+ * Adds "**Engineer's Goggles**" ability
+   * Can upgrade helmet with Engineer's Goggles, adding same functionality
+ * Adds "**Mechanical Arm**" ability 
+   * Adds ability to attack with any melee weapon in the offhand
+### 🟢 Aquaculture 2
+ * Adds Neptunium to smeltery
+ * Neptunium parts add "**Water Powered**" modifier
+   * Tools resist damage while in water
+ * Adds "**Poseidon**" modifier for armor
+   * Helmet - Improves underwater vision
+   * Chestplate - Underwater breathing
+   * Leggings - Weightless underwater
+   * Boots - Increases swim speed
+ * Adds "**Siren**" modifier for tools
+   * Melee Weapons - Increased damage against enemies underwater
+   * Harvest tools - Removes underwater mining speed penalty
+   * Hoe tools - Tilled farmland will stay moist
+### 🟣 Ars Nouveau
+ * Adds Source Gem to smeltery
+ * Adds new "**Novice**", "**Mage**" or "**Archmage**" modifier to armor
+   * Uses mana to repair item
+   * Provides Mana Boost enchantment based on level
+   * Provides Mana Regen enchantment based on level
+ * Adds "**Enchanter's Shield**" modifier for Chestplates
+   * Upon blocking damage, the user will gain a short duration of Mana Regeneration and Spell Damage.
+   * Uses mana to repair item
+### ⚪ Alex's Mobs
+ * "**Roadrunner Boots**" upgrade modifier - Boots
+   * Adds a speed boost per level on sand
  * "**Frontier Cap**" upgrade modifier - Helmet
    * Adds sneak speed bonus per level while sneaking
  * "**Spiked Turtle Shell**" ability modifier - Helmet
@@ -88,7 +163,7 @@ A Minecraft 1.18+ mod designed to provide modpack integrations with other mods f
  * Soul Stained Steel (see Malum)
  * Cloggrum, Froststeel, Forgotten (See The Undergarden)
  * Desh, Calorite and Ostrum (See Beyond Earth)
- * Pendorite, Pendorite Alloy (See Oh The Biomes You'll Go)
+ * Pendoite, Pendorite Alloy (See Oh The Biomes You'll Go)
 
 ## Links of Interest
 
