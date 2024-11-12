@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+	"createdeco:blue_cast_iron_lamp",
+	"createdeco:green_cast_iron_lamp",
+	"createdeco:red_cast_iron_lamp",
+	"createdeco:yellow_cast_iron_lamp"
+  ]
+}

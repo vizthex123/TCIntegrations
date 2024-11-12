@@ -1,0 +1,21 @@
+{
+	"conditions": [
+		{
+			"value": {
+			"tag": "tcintegration:cast_iron_cage_lamps",
+			"type": "forge:tag_empty"
+		},
+		"type": "forge:not"
+	  }
+	],
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"tag": "tcintegration:cast_iron_cage_lamps"
+	},
+	"result": {
+		"fluid": "tconstruct:molten_iron",
+		"amount": 100
+	},
+	"temperature": 1000,
+	"time": 340
+}

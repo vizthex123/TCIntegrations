@@ -1,0 +1,21 @@
+{
+	"conditions": [
+		{
+			"value": {
+			"tag": "tcintegration:gold_cage_lamps",
+			"type": "forge:tag_empty"
+		},
+		"type": "forge:not"
+	  }
+	],
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"tag": "tcintegration:gold_cage_lamps"
+	},
+	"result": {
+		"fluid": "tconstruct:molten_gold",
+		"amount": 100
+	},
+	"temperature": 700,
+	"time": 300
+}

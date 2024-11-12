@@ -1,0 +1,21 @@
+{
+	"conditions": [
+		{
+			"value": {
+			"tag": "tcintegration:decals",
+			"type": "forge:tag_empty"
+		},
+		"type": "forge:not"
+	  }
+	],
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"tag": "tcintegration:decals"
+	},
+	"result": {
+		"fluid": "tconstruct:molten_iron",
+		"amount": 90
+	},
+	"temperature": 700,
+	"time": 100
+}

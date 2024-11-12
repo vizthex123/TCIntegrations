@@ -1,0 +1,21 @@
+{
+	"conditions": [
+		{
+			"value": {
+			"tag": "tcintegration:copper_cage_lamps",
+			"type": "forge:tag_empty"
+		},
+		"type": "forge:not"
+	  }
+	],
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"tag": "tcintegration:copper_cage_lamps"
+	},
+	"result": {
+		"fluid": "tconstruct:molten_copper",
+		"amount": 100
+	},
+	"temperature": 500,
+	"time": 300
+}

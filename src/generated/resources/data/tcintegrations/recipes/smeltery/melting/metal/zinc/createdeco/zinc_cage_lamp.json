@@ -1,0 +1,21 @@
+{
+	"conditions": [
+		{
+			"value": {
+			"tag": "tcintegration:zinc_cage_lamps",
+			"type": "forge:tag_empty"
+		},
+		"type": "forge:not"
+	  }
+	],
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"tag": "tcintegration:zinc_cage_lamps"
+	},
+	"result": {
+		"fluid": "tconstruct:molten_zinc",
+		"amount": 100
+	},
+	"temperature": 420,
+	"time": 300
+}
