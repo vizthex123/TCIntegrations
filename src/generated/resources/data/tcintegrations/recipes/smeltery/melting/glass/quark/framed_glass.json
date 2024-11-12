@@ -1,0 +1,27 @@
+{
+	"type": "tconstruct:melting",
+	"conditions": [
+		{
+			"value": {
+			"tag": "tcintegrations:framed_glass",
+			"type": "forge:tag_empty"
+		},
+		"type": "forge:not"
+    }
+  ],
+	"ingredient": {
+		"tag": "tcintegrations:framed_glass"
+	},
+	"result": {
+		"fluid": "tconstruct:molten_glass",
+		"amount": 1250
+	},
+	"byproducts": [
+		{
+			"fluid": "tconstruct:molten_iron",
+			"amount": 90
+		}
+	],
+	"temperature": 800,
+	"time": 440
+}
