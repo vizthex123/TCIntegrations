@@ -2,17 +2,17 @@
 	"conditions": [
 		{
 			"type": "forge:mod_loaded",
-			"modid": "quark"
+			"modid": "twilightforest"
 		}
 	],
 	"type": "tconstruct:melting",
 	"ingredient": {
-		"item": "quark:trowel"
+		"item": "twilightforest:iron_ladder"
 	},
 	"result": {
 		"fluid": "tconstruct:molten_iron",
-		"amount": 180
+		"amount": 33
 	},
 	"temperature": 800,
-	"time": 200
+	"time": 60
 }
