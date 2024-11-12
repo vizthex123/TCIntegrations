@@ -8,16 +8,16 @@
 	"type": "tconstruct:melting",
 	"ingredient": [
 		{
-			"item": "create:fluid_tank"
+			"item": "create:speedometer"
 		},
 		{
-			"item": "create:hose_pulley"
+			"item": "create:stressometer"
 		}
 	],
 	"result": {
-		"fluid": "tconstruct:molten_copper",
-		"amount": 90
+		"fluid": "tconstruct:molten_iron",
+		"amount": 360
 	},
-	"temperature": 500,
-	"time": 300
+	"temperature": 800,
+	"time": 600
 }

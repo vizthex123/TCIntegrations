@@ -3,6 +3,10 @@
 		{
 			"type": "forge:mod_loaded",
 			"modid": "quark"
+		},
+		{
+			"type": "forge:item_exists",
+			"item": "quark:matrix_enchanting_table"
 		}
 	],
 	"type": "tconstruct:melting",

@@ -8,7 +8,9 @@
 	"type": "tconstruct:melting",
 	"ingredient": [
 		{
-			"item": "create:peculiar_bell",
+			"item": "create:peculiar_bell"
+		},
+		{
 			"item": "create:haunted_bell"
 		}
 	],

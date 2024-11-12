@@ -8,9 +8,15 @@
 	"type": "tconstruct:melting",
 	"ingredient": [
 		{
-			"item": "create:brass_ladder",
-			"item": "create:brass_scaffolding",
-			"item": "create:linked_controller",
+			"item": "create:brass_ladder"
+		},
+		{
+			"item": "create:brass_scaffolding"
+		},
+		{
+			"item": "create:linked_controller"
+		},
+		{
 			"item": "create:redstone_link"
 		}
 	],

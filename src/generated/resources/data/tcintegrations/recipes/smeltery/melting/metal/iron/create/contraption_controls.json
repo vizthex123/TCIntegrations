@@ -6,20 +6,12 @@
 		}
 	],
 	"type": "tconstruct:melting",
-	"ingredient": [
-		{
-			"item": "create:propeller"
-		},
-		{
-			"item": "create:encased_fan"
-		},
-		{
-			"item": "create:mechanical_saw"
-		}
-	],
+	"ingredient": {
+		"item": "create:contraption_controls"
+	},
 	"result": {
 		"fluid": "tconstruct:molten_iron",
-		"amount": 360
+		"amount": 90
 	},
 	"temperature": 800,
 	"time": 300

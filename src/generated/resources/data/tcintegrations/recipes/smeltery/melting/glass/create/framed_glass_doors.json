@@ -8,7 +8,9 @@
 	"type": "tconstruct:melting",
 	"ingredient": [
 		{
-			"item": "create:framed_glass_door",
+			"item": "create:framed_glass_door"
+		},
+		{
 			"item": "create:framed_glass_trapdoor"
 		}
 	],

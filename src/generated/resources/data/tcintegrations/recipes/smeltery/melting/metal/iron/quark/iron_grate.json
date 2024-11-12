@@ -7,7 +7,7 @@
 	],
 	"type": "tconstruct:melting",
 	"ingredient": {
-		"item": "quark:iron_grate"
+		"item": "quark:grate"
 	},
 	"result": {
 		"fluid": "tconstruct:molten_iron",

@@ -7,7 +7,7 @@
 	],
 	"type": "tconstruct:melting",
 	"ingredient": {
-		"item": "quark:copper_pipe"
+		"item": "quark:pipe"
 	},
 	"result": {
 		"fluid": "tconstruct:molten_copper",

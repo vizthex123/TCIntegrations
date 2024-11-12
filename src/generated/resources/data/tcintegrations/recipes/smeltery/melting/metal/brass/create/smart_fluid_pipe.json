@@ -1,13 +1,6 @@
-{
-	"conditions": [
-		{
-			"value": {
-			"tag": "tcintegration:placards",
-			"type": "forge:tag_empty"
-		},
-		"type": "forge:not"
-	  }
-	],
+ {
+		"item": "create:speedometer"
+	},
 	"type": "tconstruct:melting",
 	"ingredient": {
 		"item": "create:smart_fluid_pipe"

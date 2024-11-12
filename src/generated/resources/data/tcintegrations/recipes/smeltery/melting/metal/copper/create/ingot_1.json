@@ -8,8 +8,12 @@
 	"type": "tconstruct:melting",
 	"ingredient": [
 		{
-			"item": "create:copper_casing",
-			"item": "create:copper_door",
+			"item": "create:copper_casing"
+		},
+		{
+			"item": "create:copper_door"
+		},
+		{
 			"item": "create:spout"
 		}
 	],

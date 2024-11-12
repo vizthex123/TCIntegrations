@@ -8,10 +8,18 @@
 	"type": "tconstruct:melting",
 	"ingredient": [
 		{
-			"item": "create:nixie_tube",
-			"item": "create:display_board",
-			"item": "create:industrial_iron_block",
+			"item": "create:nixie_tube"
+		},
+		{
+			"item": "create:display_board"
+		},
+		{
+			"item": "create:industrial_iron_block"
+		},
+		{
 			"item": "create:redstone_contact"
+		},
+		{
 		}
 	],
 	"result": {

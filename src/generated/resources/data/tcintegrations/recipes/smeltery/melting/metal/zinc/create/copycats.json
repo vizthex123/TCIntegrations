@@ -1,8 +1,16 @@
 {
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		}
+	],
 	"type": "tconstruct:melting",
 	"ingredient": [
 		{
-			"item": "create:copycat_panel",
+			"item": "create:copycat_panel"
+		},
+		{
 			"item": "create:copycat_step"
 		}
 	],

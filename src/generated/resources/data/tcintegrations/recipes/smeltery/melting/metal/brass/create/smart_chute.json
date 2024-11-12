@@ -1,12 +1,9 @@
 {
 	"conditions": [
 		{
-			"value": {
-			"tag": "tcintegration:placards",
-			"type": "forge:tag_empty"
-		},
-		"type": "forge:not"
-	  }
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		}
 	],
 	"type": "tconstruct:melting",
 	"ingredient": {

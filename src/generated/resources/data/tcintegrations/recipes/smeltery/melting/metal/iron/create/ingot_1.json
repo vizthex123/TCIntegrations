@@ -8,12 +8,27 @@
 	"type": "tconstruct:melting",
 	"ingredient": [
 		{
-			"item": "create:electron_tube",
-			"item": "create:minecart_coupling",
-			"item": "create:super_glue",
-			"item": "create:contraption_controls",
-			"item": "create:mechanical_drill",
-			"item": "create:mechanical_roller",
+			"item": "create:electron_tube"
+		},
+		{
+			"item": "create:minecart_coupling"
+		},
+		{
+			"item": "create:super_glue"
+		},
+		{
+			"item": "create:contraption_controls"
+		},
+		{
+			"item": "create:display_board"
+		},
+		{
+			"item": "create:mechanical_drill"
+		},
+		{
+			"item": "create:mechanical_roller"
+		},
+		{
 			"item": "create:rope_pulley"
 		}
 	],
@@ -22,5 +37,5 @@
 		"amount": 90
 	},
 	"temperature": 800,
-	"time": 200
+	"time": 300
 }
