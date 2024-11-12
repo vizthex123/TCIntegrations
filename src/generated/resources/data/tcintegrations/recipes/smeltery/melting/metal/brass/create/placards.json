@@ -1,0 +1,21 @@
+{
+	"conditions": [
+		{
+			"value": {
+			"tag": "tcintegration:placards",
+			"type": "forge:tag_empty"
+		},
+		"type": "forge:not"
+	  }
+	],
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"tag": "tcintegration:placards"
+	},
+	"result": {
+		"fluid": "tconstruct:molten_brass",
+		"amount": 90
+	},
+	"temperature": 605,
+	"time": 180
+}

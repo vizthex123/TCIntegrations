@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+	{
+      "id": "createdeco:placards",
+      "required": false
+	},
+	{
+      "tag": "createdeco:placards",
+      "required": false
+	}
+  ]
+}

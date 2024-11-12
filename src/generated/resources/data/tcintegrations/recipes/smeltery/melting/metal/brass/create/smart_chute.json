@@ -1,0 +1,27 @@
+{
+	"conditions": [
+		{
+			"value": {
+			"tag": "tcintegration:placards",
+			"type": "forge:tag_empty"
+		},
+		"type": "forge:not"
+	  }
+	],
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "create:smart_chute"
+	},
+	"result": {
+		"fluid": "tconstruct:molten_brass",
+		"amount": 90
+	},
+	"byproducts": [
+		{
+			"fluid": "tconstruct:molten_iron",
+			"amount": 157
+		}
+	],
+	"temperature": 815,
+	"time": 400
+}
