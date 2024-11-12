@@ -1,6 +1,10 @@
- {
-		"item": "create:speedometer"
-	},
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "create"
+		}
+	],
 	"type": "tconstruct:melting",
 	"ingredient": {
 		"item": "create:smart_fluid_pipe"
